@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF890B11440FF3F4DCCEA420 /* Pods_Kakistagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6C4527A08A47C00AFA188C /* Pods_Kakistagram.framework */; };
+		F207C4A92296995A00E01154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207C4A82296995A00E01154 /* AppDelegate.swift */; };
+		F207C4AB2296995A00E01154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207C4AA2296995A00E01154 /* ViewController.swift */; };
+		F207C4AE2296995A00E01154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F207C4AC2296995A00E01154 /* Main.storyboard */; };
+		F207C4B02296995A00E01154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F207C4AF2296995A00E01154 /* Assets.xcassets */; };
+		F207C4B32296995A00E01154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F207C4B12296995A00E01154 /* LaunchScreen.storyboard */; };
+		F207C4C42296A63800E01154 /* icons8-home-filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F207C4C02296A63800E01154 /* icons8-home-filled-50@2x.png */; };
+		F207C4C52296A63800E01154 /* icons8-user-male-filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F207C4C12296A63800E01154 /* icons8-user-male-filled-50@2x.png */; };
+		F207C4C62296A63800E01154 /* icons8-search-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F207C4C22296A63800E01154 /* icons8-search-50@2x.png */; };
+		F207C4C72296A63800E01154 /* icons8-camera-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F207C4C32296A63800E01154 /* icons8-camera-50@2x.png */; };
+		F207C4C92296A7D800E01154 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F207C4C82296A7D800E01154 /* SignIn.storyboard */; };
+		F207F98B2296DFE7002A06B4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207F98A2296DFE7002A06B4 /* SignInViewController.swift */; };
+		F207F98D2296F49E002A06B4 /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207F98C2296F49E002A06B4 /* UserPageViewController.swift */; };
+		F218B299229D5C1A00CCEF04 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218B298229D5C1A00CCEF04 /* CommentViewController.swift */; };
+		F21B57B322986D9C00C8B478 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F21B57B222986D9C00C8B478 /* placeholder.jpg */; };
+		F21B57B622994ADD00C8B478 /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B57B422994ADD00C8B478 /* TimeLineTableViewCell.swift */; };
+		F21B57B722994ADD00C8B478 /* TimeLineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21B57B522994ADD00C8B478 /* TimeLineTableViewCell.xib */; };
+		F21B57BC229955FE00C8B478 /* icons8-topic-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F21B57B8229955FE00C8B478 /* icons8-topic-50.png */; };
+		F21B57BD229955FE00C8B478 /* icons8-heart-outline-48.png in Resources */ = {isa = PBXBuildFile; fileRef = F21B57B9229955FE00C8B478 /* icons8-heart-outline-48.png */; };
+		F21B57BE229955FE00C8B478 /* icons8-heart-outline-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F21B57BA229955FE00C8B478 /* icons8-heart-outline-50.png */; };
+		F21B57BF229955FE00C8B478 /* icons8-more-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F21B57BB229955FE00C8B478 /* icons8-more-50.png */; };
+		F23874A6229B1AAA00EE0DA2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23874A5229B1AAA00EE0DA2 /* Post.swift */; };
+		F23874A8229B1AD200EE0DA2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23874A7229B1AD200EE0DA2 /* User.swift */; };
+		F23874AC229B1DFF00EE0DA2 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23874AB229B1DFF00EE0DA2 /* Comment.swift */; };
+		F26A8BF02297FBC6007C9E79 /* EditUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A8BEF2297FBC6007C9E79 /* EditUserInfoViewController.swift */; };
+		F2E7E6202296BCE500F28A87 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7E61F2296BCE500F28A87 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F67D78D9792D2EC8DC30493 /* Pods-Kakistagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kakistagram.release.xcconfig"; path = "Target Support Files/Pods-Kakistagram/Pods-Kakistagram.release.xcconfig"; sourceTree = "<group>"; };
+		6E13D482BE3A6327031E6C18 /* Pods-Kakistagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kakistagram.debug.xcconfig"; path = "Target Support Files/Pods-Kakistagram/Pods-Kakistagram.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6C4527A08A47C00AFA188C /* Pods_Kakistagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kakistagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F207C4A52296995A00E01154 /* Kakistagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kakistagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F207C4A82296995A00E01154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F207C4AA2296995A00E01154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F207C4AD2296995A00E01154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F207C4AF2296995A00E01154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F207C4B22296995A00E01154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F207C4B42296995A00E01154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F207C4C02296A63800E01154 /* icons8-home-filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-50@2x.png"; sourceTree = "<group>"; };
+		F207C4C12296A63800E01154 /* icons8-user-male-filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-user-male-filled-50@2x.png"; sourceTree = "<group>"; };
+		F207C4C22296A63800E01154 /* icons8-search-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-50@2x.png"; sourceTree = "<group>"; };
+		F207C4C32296A63800E01154 /* icons8-camera-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-camera-50@2x.png"; sourceTree = "<group>"; };
+		F207C4C82296A7D800E01154 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		F207F98A2296DFE7002A06B4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F207F98C2296F49E002A06B4 /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		F218B298229D5C1A00CCEF04 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		F21B57B222986D9C00C8B478 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		F21B57B422994ADD00C8B478 /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
+		F21B57B522994ADD00C8B478 /* TimeLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeLineTableViewCell.xib; sourceTree = "<group>"; };
+		F21B57B8229955FE00C8B478 /* icons8-topic-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-topic-50.png"; sourceTree = "<group>"; };
+		F21B57B9229955FE00C8B478 /* icons8-heart-outline-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-outline-48.png"; sourceTree = "<group>"; };
+		F21B57BA229955FE00C8B478 /* icons8-heart-outline-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-outline-50.png"; sourceTree = "<group>"; };
+		F21B57BB229955FE00C8B478 /* icons8-more-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-more-50.png"; sourceTree = "<group>"; };
+		F23874A5229B1AAA00EE0DA2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F23874A7229B1AD200EE0DA2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F23874AB229B1DFF00EE0DA2 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F26A8BEF2297FBC6007C9E79 /* EditUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInfoViewController.swift; sourceTree = "<group>"; };
+		F2E7E61F2296BCE500F28A87 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F207C4A22296995A00E01154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF890B11440FF3F4DCCEA420 /* Pods_Kakistagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F8BCBEEE3B6AB0DAE67D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C4527A08A47C00AFA188C /* Pods_Kakistagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		486DA029AF8A4E81DB135E34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E13D482BE3A6327031E6C18 /* Pods-Kakistagram.debug.xcconfig */,
+				4F67D78D9792D2EC8DC30493 /* Pods-Kakistagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F207C49C2296995A00E01154 = {
+			isa = PBXGroup;
+			children = (
+				F207C4A72296995A00E01154 /* Commons */,
+				F207C4A62296995A00E01154 /* Products */,
+				F23874A4229B13C400EE0DA2 /* Models */,
+				F207C4BB22969FD400E01154 /* Controllers */,
+				F207C4BD2296A30B00E01154 /* Items */,
+				F207C4BA22969FAC00E01154 /* Views */,
+				486DA029AF8A4E81DB135E34 /* Pods */,
+				07F8BCBEEE3B6AB0DAE67D96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F207C4A62296995A00E01154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F207C4A52296995A00E01154 /* Kakistagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F207C4A72296995A00E01154 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				F207C4A82296995A00E01154 /* AppDelegate.swift */,
+				F207C4AF2296995A00E01154 /* Assets.xcassets */,
+				F207C4B42296995A00E01154 /* Info.plist */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		F207C4BA22969FAC00E01154 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F207C4AC2296995A00E01154 /* Main.storyboard */,
+				F207C4C82296A7D800E01154 /* SignIn.storyboard */,
+				F207C4B12296995A00E01154 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F207C4BB22969FD400E01154 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F207C4AA2296995A00E01154 /* ViewController.swift */,
+				F2E7E61F2296BCE500F28A87 /* SignUpViewController.swift */,
+				F207F98A2296DFE7002A06B4 /* SignInViewController.swift */,
+				F21B57B422994ADD00C8B478 /* TimeLineTableViewCell.swift */,
+				F21B57B522994ADD00C8B478 /* TimeLineTableViewCell.xib */,
+				F218B298229D5C1A00CCEF04 /* CommentViewController.swift */,
+				F207F98C2296F49E002A06B4 /* UserPageViewController.swift */,
+				F26A8BEF2297FBC6007C9E79 /* EditUserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F207C4BD2296A30B00E01154 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				F207C4C12296A63800E01154 /* icons8-user-male-filled-50@2x.png */,
+				F207C4C22296A63800E01154 /* icons8-search-50@2x.png */,
+				F207C4C02296A63800E01154 /* icons8-home-filled-50@2x.png */,
+				F207C4C32296A63800E01154 /* icons8-camera-50@2x.png */,
+				F21B57B222986D9C00C8B478 /* placeholder.jpg */,
+				F21B57B9229955FE00C8B478 /* icons8-heart-outline-48.png */,
+				F21B57BA229955FE00C8B478 /* icons8-heart-outline-50.png */,
+				F21B57BB229955FE00C8B478 /* icons8-more-50.png */,
+				F21B57B8229955FE00C8B478 /* icons8-topic-50.png */,
+			);
+			name = Items;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F23874A4229B13C400EE0DA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F23874A5229B1AAA00EE0DA2 /* Post.swift */,
+				F23874A7229B1AD200EE0DA2 /* User.swift */,
+				F23874AB229B1DFF00EE0DA2 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F207C4A42296995A00E01154 /* Kakistagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F207C4B72296995A00E01154 /* Build configuration list for PBXNativeTarget "Kakistagram" */;
+			buildPhases = (
+				19D7C9A3A022C9D8A97F9539 /* [CP] Check Pods Manifest.lock */,
+				F207C4A12296995A00E01154 /* Sources */,
+				F207C4A22296995A00E01154 /* Frameworks */,
+				F207C4A32296995A00E01154 /* Resources */,
+				95B303293D1697C624569744 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kakistagram;
+			productName = Kakistagram;
+			productReference = F207C4A52296995A00E01154 /* Kakistagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F207C49D2296995A00E01154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Hayatokakiuchi;
+				TargetAttributes = {
+					F207C4A42296995A00E01154 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F207C4A02296995A00E01154 /* Build configuration list for PBXProject "Kakistagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F207C49C2296995A00E01154;
+			productRefGroup = F207C4A62296995A00E01154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F207C4A42296995A00E01154 /* Kakistagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F207C4A32296995A00E01154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21B57B722994ADD00C8B478 /* TimeLineTableViewCell.xib in Resources */,
+				F21B57BF229955FE00C8B478 /* icons8-more-50.png in Resources */,
+				F207C4C92296A7D800E01154 /* SignIn.storyboard in Resources */,
+				F207C4B32296995A00E01154 /* LaunchScreen.storyboard in Resources */,
+				F207C4B02296995A00E01154 /* Assets.xcassets in Resources */,
+				F207C4C72296A63800E01154 /* icons8-camera-50@2x.png in Resources */,
+				F21B57B322986D9C00C8B478 /* placeholder.jpg in Resources */,
+				F207C4C42296A63800E01154 /* icons8-home-filled-50@2x.png in Resources */,
+				F21B57BC229955FE00C8B478 /* icons8-topic-50.png in Resources */,
+				F207C4C62296A63800E01154 /* icons8-search-50@2x.png in Resources */,
+				F21B57BD229955FE00C8B478 /* icons8-heart-outline-48.png in Resources */,
+				F207C4AE2296995A00E01154 /* Main.storyboard in Resources */,
+				F21B57BE229955FE00C8B478 /* icons8-heart-outline-50.png in Resources */,
+				F207C4C52296A63800E01154 /* icons8-user-male-filled-50@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D7C9A3A022C9D8A97F9539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kakistagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B303293D1697C624569744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kakistagram/Pods-Kakistagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kakistagram/Pods-Kakistagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F207C4A12296995A00E01154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207F98B2296DFE7002A06B4 /* SignInViewController.swift in Sources */,
+				F2E7E6202296BCE500F28A87 /* SignUpViewController.swift in Sources */,
+				F26A8BF02297FBC6007C9E79 /* EditUserInfoViewController.swift in Sources */,
+				F23874A6229B1AAA00EE0DA2 /* Post.swift in Sources */,
+				F207F98D2296F49E002A06B4 /* UserPageViewController.swift in Sources */,
+				F23874AC229B1DFF00EE0DA2 /* Comment.swift in Sources */,
+				F23874A8229B1AD200EE0DA2 /* User.swift in Sources */,
+				F207C4AB2296995A00E01154 /* ViewController.swift in Sources */,
+				F21B57B622994ADD00C8B478 /* TimeLineTableViewCell.swift in Sources */,
+				F207C4A92296995A00E01154 /* AppDelegate.swift in Sources */,
+				F218B299229D5C1A00CCEF04 /* CommentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F207C4AC2296995A00E01154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F207C4AD2296995A00E01154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F207C4B12296995A00E01154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F207C4B22296995A00E01154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F207C4B52296995A00E01154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F207C4B62296995A00E01154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F207C4B82296995A00E01154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E13D482BE3A6327031E6C18 /* Pods-Kakistagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75RTQL8GPJ;
+				INFOPLIST_FILE = Kakistagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hayatokakiuchi.Kakistagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F207C4B92296995A00E01154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F67D78D9792D2EC8DC30493 /* Pods-Kakistagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75RTQL8GPJ;
+				INFOPLIST_FILE = Kakistagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hayatokakiuchi.Kakistagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F207C4A02296995A00E01154 /* Build configuration list for PBXProject "Kakistagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F207C4B52296995A00E01154 /* Debug */,
+				F207C4B62296995A00E01154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F207C4B72296995A00E01154 /* Build configuration list for PBXNativeTarget "Kakistagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F207C4B82296995A00E01154 /* Debug */,
+				F207C4B92296995A00E01154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F207C49D2296995A00E01154 /* Project object */;
+}
